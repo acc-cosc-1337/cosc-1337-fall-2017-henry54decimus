@@ -6,5 +6,5 @@ TEST(pay_rollTest, testing_FIT){
 }
 
 TEST(pay_rollTest, testing_FICAMED){
-  EXPECT_EQ(1.45, getFICAMED(100));
+  EXPECT_EQ(1, getFICAMED(100));
 }
