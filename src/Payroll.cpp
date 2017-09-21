@@ -11,9 +11,19 @@ const double fica_medrate = .0145;
 const double fit_rate = .15;
 const double salary_biweekly = 26;
 
-/**
-Returns regular hours worked in one week
-*/
+//Returns regular hours worked in one week
+
+double getRegularHours(double totalHours)
+{
+	double hours = totalHours;
+
+	if (totalHours > standard_hours)
+		hours = standard_hours;
+	else if (totalHours < 0)
+		hours = 0;
+	return hours;
+}
+
 double getOvertimeHours(double totalHours)
 {
 	double hours = 0;
