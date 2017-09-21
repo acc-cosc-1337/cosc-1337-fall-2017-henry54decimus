@@ -2,7 +2,6 @@
 #include "Payroll.h"
 using namespace std;
 
-
 int main()
 {
 	enum employeeCategory { hourly = 104, salary = 115 };
