@@ -8,5 +8,5 @@ TEST(pay_rollTest, testing_FIT){
 }
 
 TEST(pay_rollTest, testing_FICAMED){
-  EXPECT_EQ("1.45",to_string ( getFICAMED(100)));
+  EXPECT_EQ("1.450000",to_string ( getFICAMED(100)));
 }
