@@ -1,5 +1,3 @@
-#include "Payroll.h"
-#include <math.h>
 #include <iostream>
 #include <iomanip>
 #include "Payroll.h"
