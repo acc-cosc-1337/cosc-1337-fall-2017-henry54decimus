@@ -3,7 +3,7 @@
 using namespace std;
 
 
-int _tmain(int argc, _TCHAR* argv[])
+int _main()
 {
 	enum employeeCategory { hourly = 104, salary = 115 };
 
