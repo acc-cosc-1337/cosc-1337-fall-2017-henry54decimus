@@ -4,6 +4,8 @@ using namespace std;
 
 int main()
 {
+	
+	//trying to update 
 	enum employeeCategory { hourly = 104, salary = 115 };
 
 	double totalHours = 0, hourlyRate = 0, grossPay, regularHours = 0, overtimeHours = 0, fedincome=0, ficaSSN=0, ficaMedicare=0, netPay=0;
