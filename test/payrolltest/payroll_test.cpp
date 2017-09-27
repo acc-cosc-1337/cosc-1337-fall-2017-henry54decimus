@@ -15,23 +15,4 @@ TEST(pay_rollTest, testing_regularHours){
   EXPECT_EQ(0, getRegularHours(35));
 }
 
-TEST(pay_rollTest, testing_regularHours){
-  EXPECT_EQ(10,getRegularHours(50));
-}
 
-
-TEST(pay_rollTest, testing_othours){
-  EXPECT_EQ(false, getOvertimeHours(90));
-}
-
-TEST(pay_rollTest, testing_othours){
-  EXPECT_EQ(10, getOvertimeHours(50));
-}
-
-TEST(pay_rollTest, testing_grosspay){
-  EXPECT_EQ(2000, getFIT(52000));
-}
-
-TEST(pay_rollTest, testing_grosspay){
-  EXPECT_EQ(FALSE, getFIT(90000));
-}
