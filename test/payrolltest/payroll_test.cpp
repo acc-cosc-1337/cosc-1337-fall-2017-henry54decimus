@@ -27,3 +27,11 @@ TEST(pay_rollTest, testing_othours){
 TEST(pay_rollTest, testing_othours){
   EXPECT_EQ(10, getOvertimeHours(50));
 }
+
+TEST(pay_rollTest, testing_grosspay){
+  EXPECT_EQ(2000, getFIT(52000));
+}
+
+TEST(pay_rollTest, testing_grosspay){
+  EXPECT_EQ(FALSE, getFIT(90000));
+}
