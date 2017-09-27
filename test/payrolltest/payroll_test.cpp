@@ -12,7 +12,7 @@ TEST(pay_rollTest, testing_FICAMED){
 }
 
 TEST(pay_rollTest, testing_regularHours){
-  EXPECT_EQ(0, getRegularHours(35));
+  EXPECT_EQ("0", to_string(getRegularHours(35)));
 }
 
 
