@@ -10,3 +10,11 @@ TEST(pay_rollTest, testing_FIT){
 TEST(pay_rollTest, testing_FICAMED){
   EXPECT_EQ("1.450000",to_string ( getFICAMED(100)));
 }
+
+TEST(pay_rollTest, testing_regularHours){
+  EXPECT_EQ(0, getRegularHours(35));
+}
+
+TEST(pay_rollTest, testing_regularHours){
+  EXPECT_EQ(10,getRegularHours(50));
+}
