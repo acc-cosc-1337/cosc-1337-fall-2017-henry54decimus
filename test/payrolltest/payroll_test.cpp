@@ -32,4 +32,8 @@ TEST(pay_rollTest, testing_grosspay){
   EXPECT_EQ(2000, getGrossPay(52000));
 }
 
+TEST(pay_rollTest, testing_grosspaywhennegativesalary){
+  EXPECT_EQ(-1923.08, getGrossPay(-50000));
+}
+
 
