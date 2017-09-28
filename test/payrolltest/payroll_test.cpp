@@ -20,3 +20,7 @@ TEST(pay_rollTest, testing_othoursat40){
   EXPECT_EQ(0, getOvertimeHours(40));
 }
 
+TEST(pay_rollTest, testing_regularHours){
+  EXPECT_EQ("35.000000", to_string(getRegularHours(35)));
+}
+
