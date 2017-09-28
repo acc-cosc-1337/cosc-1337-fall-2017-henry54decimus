@@ -25,7 +25,7 @@ TEST(pay_rollTest, testing_regularHours){
 }
 
 TEST(pay_rollTest, testing_regularHourshoursover40){
-  EXPECT_EQ("10.000000", to_string(getRegularHours(50)));
+  EXPECT_EQ("40.000000", to_string(getRegularHours(50)));
 }
 
 
