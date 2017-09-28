@@ -28,4 +28,8 @@ TEST(pay_rollTest, testing_regularHourshoursover40){
   EXPECT_EQ("40.000000", to_string(getRegularHours(50)));
 }
 
+TEST(pay_rollTest, testing_grosspay){
+  EXPECT_EQ(2600, getGrossPay(52000));
+}
+
 
