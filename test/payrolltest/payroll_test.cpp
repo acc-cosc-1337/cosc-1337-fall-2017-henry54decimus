@@ -16,7 +16,7 @@ TEST(pay_rollTest, testing_othours){
   EXPECT_EQ(10, getOvertimeHours(50));
 }
 
-TEST(pay_rollTest, testing_othours){
+TEST(pay_rollTest, testing_othoursat40){
   EXPECT_EQ(0, getOvertimeHours(40));
 }
 
