@@ -33,7 +33,7 @@ TEST(pay_rollTest, testing_grosspay){
 }
 
 TEST(pay_rollTest, testing_grosspaywhennegativesalary){
-  EXPECT_EQ("-1923.08", to_string(getGrossPay(-50000)));
+  EXPECT_EQ("-1923.076923", to_string(getGrossPay(-50000)));
 }
 
 
