@@ -29,7 +29,7 @@ TEST(pay_rollTest, testing_regularHourshoursover40){
 }
 
 TEST(pay_rollTest, testing_grosspay){
-  EXPECT_EQ(2600, getGrossPay(52000));
+  EXPECT_EQ(2000, getGrossPay(52000));
 }
 
 
